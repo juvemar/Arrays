@@ -37,7 +37,7 @@ class CompareCharArrays
             }
         }
         else isequal = false;
-        Console.WriteLine("The array is equal. - " + isequal);
+        Console.WriteLine("The arrays are equal. - " + isequal);
 
         Main();
     }

@@ -48,6 +48,7 @@ class MaximalIncreasingSequence
             else Console.Write(array[j]);
         }
         Console.WriteLine();
+        Console.WriteLine();
 
         Main();
     }

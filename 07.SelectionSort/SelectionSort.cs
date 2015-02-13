@@ -8,7 +8,7 @@ class SelectionSort
 {
     static void Main()
     {
-        Console.Write(@"Enter ""n"": ");
+        Console.Write(@"Enter the length of the array: ");
         int n = int.Parse(Console.ReadLine());
         int[] array = new int[n];
         int temp;

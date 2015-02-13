@@ -8,7 +8,8 @@ class SubsetWithSumS
     static void Main()
     {
         int[] array = { 5, 2, 5, 7, 4 };
-        int sum = 3;//In this case the answer is No. int sum = 6 for answer = Yes
+        int sum = 3;//In this case the answer is No.
+        //int sum = 6; // In this case the answer is Yes.
         int currentSum = 0;
         int startCheck = 0;
         bool exists = false;

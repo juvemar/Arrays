@@ -13,7 +13,5 @@ class AllocateArray
             array[i] = i * 5;
             Console.Write(array[i] + " ");
         }
-
-        Main();
     }
 }

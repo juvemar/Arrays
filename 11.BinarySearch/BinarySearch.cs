@@ -31,7 +31,7 @@ class BinarySearch
     {
         Console.WriteLine("Binary search algorith.");
         int[] sortedArr = new int[8] { 2, 3, 6, 1, 2, 22, 43, 9 };
-        int key = 2;
+        int key = 6;
         Console.WriteLine(BinSearch(sortedArr, key));
     }
 }

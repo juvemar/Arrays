@@ -1,12 +1,12 @@
-﻿//Write a program that sorts an array of strings using the Quick sort algorithm.
+﻿//Write a program that sorts an array of integers using the Quick sort algorithm.
 
 using System;
 
 class QuickSort
 {
-       static void Main()
+    static void Main()
     {
-        int[] arr = { 2,3,5,8,9,10,7,1,4,6};
+        int[] arr = { 2, 3, 5, 8, 9, 10, 7, 1, 4, 6 };
         QuickSortAlg(arr, 0, 9);
         foreach (var item in arr)
         {

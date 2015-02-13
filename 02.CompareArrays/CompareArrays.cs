@@ -6,7 +6,7 @@ class CompareArrays
 {
     static void Main()
     {
-        bool isequal;
+        bool isequal = true;
         Console.Write("Enter length of first array: ");
         int n = int.Parse(Console.ReadLine());
         Console.Write("Enter length of second array: ");
@@ -34,7 +34,10 @@ class CompareArrays
                     Console.WriteLine("The arrays are not equal.");
                     break;
                 }
-                else Console.WriteLine("The arrays are equal.");
+            }
+            if(isequal == true)
+            {
+                Console.WriteLine("The arrays are equal.");
             }
         }
         else
